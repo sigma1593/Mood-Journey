@@ -10,9 +10,7 @@ A diferencia de un habit tracker tradicional, esta aplicación incorpora context
 El objetivo del sistema es transformar datos de hábitos en información útil que permita mejorar la productividad personal de forma realista y sostenible.
 
 Problema que resuelve
-
 Las aplicaciones actuales de hábitos presentan varias limitaciones:
-
 No consideran el contexto real del usuario.
 Penalizan todos los días por igual.
 Ofrecen recomendaciones genéricas.
@@ -25,25 +23,31 @@ Sistema operativo: Android
 Lenguaje: Kotlin
 Entorno de desarrollo: Android Studio
 Base de datos: Firebase o SQLite
+
 Funcionalidades
 Gestión de hábitos
 Crear, editar y eliminar hábitos
 Clasificación por categorías
-✔ Registro diario
+
+Registro diario
 ✔ Cumplido
 ✘ No cumplido
 ⚠ Día con imprevistos (no afecta KPIs)
+
 KPIs personales
 Cumplimiento semanal
 Streaks
 Tendencias de productividad
+
 Coach inteligente
 Detección de patrones
 Recomendaciones automáticas
 Sugerencias editables por el usuario
+
 IA (fase 2)
 Resúmenes semanales
 Explicaciones en lenguaje natural
+
 Interfaz de usuario
 Login
 Dashboard de KPIs
@@ -51,6 +55,7 @@ Lista de hábitos
 Check-in diario
 Insights del coach
 Resumen semanal
+
 Lógica del sistema
 SI día = imprevisto
 → excluir de KPIs
