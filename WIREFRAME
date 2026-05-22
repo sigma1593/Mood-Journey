@@ -1,0 +1,23 @@
+En el desarrollo de aplicaciones Android, los wireframes o esquemas de pantalla representan una etapa fundamental dentro del proceso de diseño y planificación de la aplicación. Un wireframe permite visualizar de manera preliminar la estructura, distribución y navegación de las pantallas antes de iniciar la programación, facilitando así la organización de ideas y la identificación temprana de posibles mejoras en la experiencia del usuario.
+
+De acuerdo con Murillo (2016), los wireframes ayudan al equipo de trabajo a definir cómo estarán estructuradas las interfaces de usuario y permiten representar visualmente la arquitectura de la información de una aplicación. Además, el uso de esquemas facilita la comunicación entre diseñadores, desarrolladores y usuarios durante el desarrollo del proyecto. ([revistas.utp.ac.pa][1])
+Para este proyecto académico, primero elaboré un esquema físico en papel utilizando bolígrafo para diseñar las pantallas principales de mi aplicación KPIFlow, una aplicación enfocada en el registro y seguimiento de indicadores de desempeño (KPIs). Este primer boceto me permitió organizar mejor las ideas sobre la navegación, ubicación de botones y flujo general de la aplicación antes de pasar al diseño digital.
+Posteriormente, utilicé Figma para desarrollar los wireframes digitales de la aplicación. Entre las pantallas principales diseñadas se encuentran:
+* Pantalla de inicio de sesión.
+* Dashboard principal con resumen de KPIs.
+* Lista de KPIs registrados.
+* Pantalla para agregar y editar KPIs.
+* Pantalla de detalle de cada KPI.
+
+La importancia de utilizar wireframes en aplicaciones móviles radica en que ayudan a mejorar la usabilidad, reducir errores de diseño y optimizar el desarrollo antes de comenzar la etapa de programación. Gasca Mantilla, Camargo Ariza y Medina Delgado (2014) señalan que en la etapa de diseño de aplicaciones móviles es necesario estructurar la solución mediante diagramas o esquemas que permitan organizar recursos, tiempos y funcionalidades del sistema. ([revistas.udistrital.edu.co][2])
+
+Asimismo, investigaciones recientes destacan que los wireframes contribuyen a mejorar la experiencia de usuario y la comunicación entre los miembros del equipo de desarrollo, permitiendo validar ideas y realizar cambios sin necesidad de modificar código avanzado (Almani & Alrwais, 2024). ([Mendeley][3])
+
+Considero que realizar primero un esquema físico y luego trasladarlo a una herramienta digital como Figma fue útil para visualizar de forma más clara la estructura de la aplicación y facilitar el desarrollo posterior en Android Studio.
+
+Referencias
+1 Almani, A., & Alrwais, O. (2024). The Role of Wireframes in Enhancing User Interface Design. International Research Journal of Innovations in Engineering and Technology, 8(12), 134–140. https://doi.org/10.47001/irjiet/2024.812020  
+2 Gasca Mantilla, M. C., Camargo Ariza, L. L., & Medina Delgado, B. (2014). Metodología para el desarrollo de aplicaciones móviles. Tecnura, 18(40), 20–35. https://doi.org/10.14483/udistrital.jour.tecnura.2014.2.a02 
+3 Murillo, D. (2016). Uso de esquemas o wireframes. El Tecnológico, 25(1), 21–23. 
+
+
