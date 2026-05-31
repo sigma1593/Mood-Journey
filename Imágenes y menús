@@ -1,0 +1,168 @@
+Aplicación de los conceptos de diseño en Mood Journey
+
+Introducción
+
+El diseño de aplicaciones móviles es un proceso fundamental que permite transformar una idea en una solución digital funcional, intuitiva y centrada en las necesidades de los usuarios. Según Mobivery (2018), el diseño UX/UI busca crear experiencias que faciliten la interacción entre las personas y la tecnología, mejorando la usabilidad y la satisfacción del usuario.
+
+En el caso de Mood Journey, el diseño tiene un papel esencial porque la aplicación está orientada al bienestar emocional. Por ello, la experiencia debe ser sencilla, amigable y libre de complejidad para que los usuarios puedan registrar sus emociones de manera rápida y cómoda.
+
+¿Quién utilizará la aplicación?
+
+Los usuarios principales de Mood Journey son personas que desean llevar un seguimiento básico de sus emociones y estados de ánimo diarios.
+
+Entre ellos se incluyen:
+
+* Estudiantes que experimentan estrés académico.
+* Profesionales que desean monitorear su bienestar emocional.
+* Personas interesadas en el autocuidado y desarrollo personal.
+* Usuarios que buscan identificar patrones emocionales a lo largo del tiempo.
+
+El diseño se centra en estos usuarios para garantizar una experiencia accesible y fácil de comprender.
+
+¿Qué es Mood Journey?
+
+Mood Journey es una aplicación móvil para Android que permite registrar emociones diarias mediante emojis y notas cortas.
+
+La aplicación ofrece tres funcionalidades principales:
+
+* Registro e inicio de sesión de usuarios.
+* Registro diario de emociones.
+* Consulta del historial emocional y estadísticas básicas.
+
+Su propósito es ayudar a los usuarios a desarrollar hábitos de reflexión personal e identificar tendencias emocionales a lo largo del tiempo.
+
+ ¿Cuándo se aplica el diseño dentro del proyecto?
+
+El diseño se aplica desde las primeras fases del desarrollo.
+
+Antes de programar la aplicación se desarrollaron wireframes que permitieron definir:
+
+* La estructura de navegación.
+* La ubicación de los botones.
+* La organización de la información.
+* La experiencia general del usuario.
+
+Posteriormente, el diseño continúa refinándose durante el desarrollo mediante pruebas de funcionalidad y evaluación de la experiencia de uso.
+
+Dónde se aplica el diseño?
+
+El diseño está presente en todas las pantallas de la aplicación:
+
+ Pantalla de Inicio de Sesión
+
+Se utilizan formularios simples y organizados para facilitar el acceso del usuario.
+
+Pantalla de Registro Emocional
+
+Se emplean emojis visuales para representar emociones de forma rápida e intuitiva.
+
+Pantalla de Historial y Estadísticas
+
+Se presentan los registros emocionales de forma organizada para facilitar la consulta y análisis de la información.
+
+¿Cómo se desarrolla el diseño de Mood Journey?
+
+El diseño sigue principios de UX/UI y Material Design.
+
+Las principales decisiones de diseño incluyen:
+
+Uso de colores suaves
+
+Los colores buscan transmitir tranquilidad y bienestar emocional, evitando elementos visuales agresivos que puedan generar distracción.
+
+Uso de emojis
+
+Los emojis permiten que el usuario identifique rápidamente su estado emocional sin necesidad de escribir grandes cantidades de texto.
+
+Navegación sencilla
+
+La aplicación utiliza una estructura de navegación simple para que el usuario pueda acceder a las principales funciones con pocos pasos.
+
+Diseño adaptable
+
+La interfaz está diseñada para funcionar correctamente en diferentes tamaños de pantalla Android.
+
+Aplicación de Material Design
+
+Material Design proporciona principios visuales y de interacción que ayudan a crear interfaces modernas y consistentes.
+
+En Mood Journey se aplican mediante:
+
+* Botones claramente identificables para guardar registros.
+* Tarjetas visuales para mostrar emociones registradas.
+* Iconografía sencilla y reconocible.
+* Espaciado adecuado entre elementos.
+* Retroalimentación visual al realizar acciones.
+
+Estos elementos mejoran la experiencia del usuario y facilitan la interacción con la aplicación.
+
+Aplicación del diseño conversacional
+Google for Developers (2024) define el diseño conversacional como la creación de interacciones naturales entre usuarios y sistemas digitales.
+Aunque Mood Journey no incorpora actualmente un chatbot, algunos principios del diseño conversacional pueden aplicarse mediante:
+* Mensajes de bienvenida amigables.
+* Confirmaciones claras al guardar emociones.
+* Mensajes informativos cuando no existen registros previos.
+* Lenguaje simple y comprensible para el usuario.
+
+Estos elementos contribuyen a generar una experiencia más humana y cercana.
+
+Aplicación del modelo Builder Canvas
+
+El modelo Builder Canvas permite organizar los elementos clave de una solución digital.
+
+Aplicado a Mood Journey:
+
+Problema
+Las personas tienen dificultades para realizar un seguimiento constante de sus emociones.
+
+Usuarios
+Personas interesadas en el bienestar emocional.
+
+Solución
+Aplicación móvil para registrar emociones y consultar historial emocional.
+
+Valor generado
+Ayuda a desarrollar hábitos de reflexión personal y reconocimiento de patrones emocionales.
+
+Tecnología
+* Kotlin
+* Jetpack Compose
+* Room Database
+
+Infraestructura digital necesaria
+De acuerdo con el World Economic Forum (2014), una infraestructura digital sólida permite ofrecer servicios digitales más eficientes y accesibles.
+
+Para Mood Journey, la infraestructura incluye:
+* Dispositivos Android.
+* Sistema operativo Android.
+* Base de datos local Room.
+* Herramientas de desarrollo Android Studio.
+* Almacenamiento seguro de información emocional.
+
+Esta infraestructura permite que la aplicación funcione de forma estable y segura para los usuarios.
+
+Importancia del diseño en Mood Journey
+El diseño es un componente estratégico porque determina cómo los usuarios interactúan con la aplicación.
+Un diseño adecuado permite:
+* Mejorar la experiencia de uso.
+* Facilitar el registro diario de emociones.
+* Incrementar la retención de usuarios.
+* Favorecer la accesibilidad.
+* Generar confianza y satisfacción.
+
+Por esta razón, el diseño no debe considerarse únicamente un aspecto visual, sino un elemento fundamental para el éxito de la aplicación.
+
+Conclusión
+La aplicación Mood Journey demuestra cómo los principios de UX/UI, Material Design, diseño conversacional e infraestructura digital pueden integrarse para crear una solución tecnológica centrada en las personas. Mediante una interfaz sencilla, navegación intuitiva y funcionalidades enfocadas en el bienestar emocional, la aplicación busca ofrecer una experiencia accesible y útil para sus usuarios. El diseño se convierte así en un factor clave para conectar las necesidades humanas con las soluciones digitales.
+
+Referencias
+
+Andromo. (2024). Herramientas para diseño y desarrollo de aplicaciones. https://www.andromo.com/es/blog/tools-for-app-design/
+
+Google for Developers. (2024). Conversation Design. https://developers.google.com/assistant/conversation-design/welcome?hl=es-419
+
+Mobivery. (2018). Super guía para el diseño de apps. https://mobivery.com/super-guia-para-el-diseno-de-apps/
+
+World Economic Forum. (2014). Tres maneras de construir una mejor infraestructura digital. https://es.weforum.org/agenda/2014/05/tres-maneras-de-construir-una-mejor-infraestructura-digital/
+
+Wu, A., Tong, W., Dwyer, T., Lee, B., Isenberg, P., & Qu, H. (2020). MobileVisFixer: Tailoring web visualizations for mobile phones leveraging an explainable reinforcement learning framework. arXiv. https://arxiv.org/abs/2008.06678
