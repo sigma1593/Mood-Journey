@@ -1,0 +1,153 @@
+Arquitectura de Aplicaciones Android y Bases de Datos
+
+Introducción
+
+El desarrollo de aplicaciones modernas requiere una adecuada organización del código, una interfaz fácil de utilizar y un sistema eficiente para almacenar información. En Android, estos elementos se logran mediante una arquitectura de software bien definida y el uso de bases de datos que permitan gestionar la información de manera segura y eficiente.
+Esta guía presenta los conceptos fundamentales de arquitectura de aplicaciones y bases de datos utilizados en el desarrollo de aplicaciones Android.
+
+1. ¿Qué es la arquitectura de aplicaciones?
+La arquitectura de aplicaciones es la estructura que organiza los diferentes componentes de una aplicación y define cómo interactúan entre sí.
+Según Android Developers (2024), una arquitectura adecuada ayuda a:
+* Separar responsabilidades.
+* Facilitar el mantenimiento del código.
+* Mejorar la escalabilidad.
+* Reducir errores.
+* Facilitar futuras actualizaciones.
+Una aplicación bien estructurada es más fácil de desarrollar y mantener a largo plazo.
+
+
+2. Componentes principales de una arquitectura Android
+Interfaz de Usuario (UI)
+Es la parte visible para el usuario.
+Ejemplos:
+* Botones
+* Formularios
+* Listas
+* Pantallas
+* Menús
+En una aplicación como Mood Journey, la interfaz permite seleccionar emociones, escribir notas y consultar el historial emocional.
+
+ Lógica de Negocio
+Contiene las reglas que controlan el funcionamiento de la aplicación.
+Ejemplos:
+* Validar información.
+* Procesar datos.
+* Generar estadísticas.
+* Controlar flujos de navegación.
+
+Capa de Datos
+Administra el almacenamiento y recuperación de información.
+Ejemplos:
+* Bases de datos.
+* Archivos locales.
+* Servicios externos.
+
+3. ¿Qué es una base de datos?
+Una base de datos es un sistema que permite almacenar, organizar y recuperar información de forma estructurada.
+Las bases de datos permiten que la información permanezca disponible incluso después de cerrar la aplicación.
+Ejemplos:
+* Usuarios registrados.
+* Historial de compras.
+* Registros médicos.
+* Emociones registradas en Mood Journey.
+
+4. Importancia de las bases de datos en aplicaciones móviles
+Las bases de datos son fundamentales porque permiten:
+* Guardar información permanentemente.
+* Consultar datos rápidamente.
+* Organizar grandes volúmenes de información.
+* Evitar pérdida de datos.
+* Generar reportes y estadísticas.
+
+Sin una base de datos, una aplicación perdería la información cada vez que se cierre.
+
+5. SQLite en Android
+SQLite es una base de datos relacional integrada en Android.
+Características principales:
+* Funciona localmente en el dispositivo.
+* No requiere servidor externo.
+* Es rápida y ligera.
+* Permite almacenar datos estructurados.
+Android utiliza SQLite como base para muchas soluciones de almacenamiento local.
+
+6. Room Database
+Room es una biblioteca oficial de Android que simplifica el uso de SQLite.
+Ventajas:
+* Menos código.
+* Mayor seguridad.
+* Menor posibilidad de errores.
+* Integración con Kotlin.
+
+Room se basa en tres componentes principales:
+
+Entity
+Representa una tabla de la base de datos.
+Ejemplo:
+MoodEntry
+| Campo   | Tipo   |
+| ------- | ------ |
+| id      | Int    |
+| emotion | String |
+| note    | String |
+| date    | String |
+
+DAO (Data Access Object)
+Define las operaciones sobre los datos.
+Ejemplos:
+* Insertar registros.
+* Consultar registros.
+* Actualizar registros.
+* Eliminar registros.
+
+Database
+Es el componente principal que conecta todas las tablas y operaciones de la base de datos.
+
+7. Aplicación práctica: Mood Journey
+Mood Journey es una aplicación diseñada para registrar emociones diarias.
+La arquitectura del proyecto podría organizarse de la siguiente manera:
+Interfaz
+* Pantalla de inicio.
+* Registro emocional.
+* Historial.
+* Estadísticas.
+
+Lógica
+* Validación de datos.
+* Cálculo de emociones más frecuentes.
+* Gestión de navegación.
+
+Base de Datos
+Tabla de emociones:
+| id | emoción | nota           | fecha      |
+| -- | ------- | -------------- | ---------- |
+| 1  | 😊      | Día productivo | 10/06/2026 |
+| 2  | 😢      | Mucho estrés   | 11/06/2026 |
+
+8. Relación entre bases de datos y ciencia forense digital
+La ciencia forense digital utiliza bases de datos para almacenar y analizar evidencias electrónicas.
+Las bases de datos permiten:
+* Registrar actividades de usuarios.
+* Mantener historial de eventos.
+* Recuperar información eliminada.
+* Analizar evidencias digitales.
+Por esta razón, la integridad y seguridad de los datos son aspectos fundamentales tanto en aplicaciones móviles como en investigaciones forenses.
+
+
+Conclusiones
+* La arquitectura organiza el funcionamiento de una aplicación.
+* Las bases de datos permiten almacenar información de forma permanente.
+* SQLite y Room son herramientas fundamentales para Android.
+* Una buena estructura facilita el mantenimiento y escalabilidad del software.
+* Comprender estos conceptos es esencial para desarrollar aplicaciones modernas y eficientes.
+
+
+Referencias 
+Android Developers. (2024). *Guía de arquitectura de aplicaciones*. Google. [https://developer.android.com/topic/architecture?hl=es-419](https://developer.android.com/topic/architecture?hl=es-419)
+Android Developers. (2024). *Guardar datos mediante SQLite*. Google. [https://developer.android.com/training/data-storage/sqlite?hl=es-419](https://developer.android.com/training/data-storage/sqlite?hl=es-419)
+Coronel, C., & Morris, S. (2019). *Database systems: Design, implementation, and management* (13th ed.). Cengage Learning.
+
+González, R., Rodríguez, J., & Batista, E. (2018). Ciencia forense digital: Retos y perspectivas. *ID Tecnológico, 14*(1), 58-71. [https://revistas.utp.ac.pa/index.php/id-tecnologico/article/view/2076/3557](https://revistas.utp.ac.pa/index.php/id-tecnologico/article/view/2076/3557)
+
+Informatec Digital. (2024). *Diseño de bases de datos para aplicaciones: Mejores prácticas*. [https://informatecdigital.com/bases-de-datos/diseno-de-bases-de-datos-para-aplicaciones-mejores-practicas/](https://informatecdigital.com/bases-de-datos/diseno-de-bases-de-datos-para-aplicaciones-mejores-practicas/)
+
+
