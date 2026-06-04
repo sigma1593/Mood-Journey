@@ -1,0 +1,36 @@
+ Módulo 1
+* Selección de la idea del proyecto.
+* Definición inicial de Mood Journey.
+* Identificación de la necesidad de registrar emociones diarias.
+
+Módulo 2
+* Análisis del problema.
+* Definición de objetivos del proyecto.
+* Identificación de los usuarios objetivo.
+* Descripción general de la solución propuesta.
+
+Módulo 3
+* Definición de funcionalidades principales.
+* Planificación de la experiencia del usuario.
+* Selección de la plataforma Android para el desarrollo.
+
+Módulo 4
+* Selección de tecnologías:
+  * Kotlin
+  * Jetpack Compose
+  * Room Database
+* Diseño general de la aplicación.
+* Definición de las pantallas principales.
+
+Módulo 5
+* Creación de wireframes.
+* Diseño de las pantallas:
+  * Login
+  * Register
+  * Home
+  * Historial y Estadísticas
+* Definición de la navegación básica.
+* Planificación de la base de datos local.
+
+* Mejorar el diseño visual.
+* Realizar pruebas finales y documentación.
