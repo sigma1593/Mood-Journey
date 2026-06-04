@@ -19,16 +19,16 @@ Desarrollar una aplicación Android que permita registrar emociones diarias, alm
 
 
 ## Funcionalidades
-### Autenticación
+## Autenticación
 * Inicio de sesión.
 * Registro de usuarios.
 
-### Registro Emocional
+## Registro Emocional
 * Selección de emociones mediante emojis.
 * Registro de notas personales.
 * Guardado de emociones diarias.
 
-### Historial Emocional
+## Historial Emocional
 * Consulta de registros anteriores.
 * Visualización cronológica de emociones.
 
