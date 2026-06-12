@@ -1,0 +1,87 @@
+1. Introducción
+
+Mood Journey es un MVP (Minimum Viable Product) de una aplicación móvil enfocada en el registro del estado de ánimo del usuario. Su objetivo principal es permitir que las personas registren cómo se sienten y puedan visualizar su historial emocional de forma sencilla.
+
+En este contexto, los conceptos de desarrollo de aplicaciones, diseño, base de datos y SMS son fundamentales para entender cómo se construye una aplicación móvil, incluso en sus versiones más básicas.
+
+2. Desarrollo de la aplicación
+
+El desarrollo de aplicaciones móviles consiste en la creación de funcionalidades mediante herramientas como Android Studio.
+
+En el MVP de Mood Journey, el desarrollo se centra en:
+
+Registro básico del estado de ánimo del usuario
+Guardado de información local
+Visualización simple de datos registrados
+Elementos clave:
+Quién: desarrolladores móviles
+Qué: creación de funcionalidades básicas de la app
+Cuándo: durante la fase de construcción del MVP
+Dónde: Android Studio y dispositivo Android
+Cómo: mediante Activities, lógica de programación y almacenamiento local
+Por qué: para transformar una idea en una solución funcional mínima
+3. Diseño de la aplicación
+
+El diseño en Mood Journey se enfoca en la simplicidad y facilidad de uso, ya que el objetivo del MVP es validar la idea.
+
+Principios aplicados:
+
+Interfaz simple para registrar emociones
+Navegación básica entre pantallas
+Reducción de carga cognitiva del usuario
+
+Según Android Developers, el diseño en aplicaciones móviles debe priorizar la claridad de la interacción y la estructura de la información para mejorar la experiencia del usuario.
+
+4. Base de datos
+
+La base de datos es un componente esencial del MVP, ya que permite almacenar la información del usuario.
+
+En Mood Journey se utiliza para:
+
+Guardar registros de estado de ánimo
+Asociar cada registro con una fecha
+Permitir consulta del historial básico
+Características:
+Quién: sistema de almacenamiento local (ej. SQLite o equivalente básico)
+Qué: persistencia de datos del usuario
+Cómo: inserción y consulta de registros
+Por qué: sin base de datos, la app no podría conservar información
+
+La persistencia de datos es fundamental en aplicaciones móviles, ya que permite que la información se mantenga entre sesiones.
+
+5. SMS en aplicaciones Android (concepto teórico)
+
+En el MVP de Mood Journey, el SMS no está implementado, pero es importante como concepto de expansión futura.
+
+¿Por qué es importante entender el SMS?
+
+El SMS permite la comunicación entre la aplicación y el usuario sin necesidad de conexión a internet. Esto abre la posibilidad de mejorar la retención del usuario mediante recordatorios o mensajes informativos.
+
+¿Cómo funciona el SMS?
+
+El SMS se transmite a través de la red del operador móvil. En Android, su uso requiere:
+
+Permisos del sistema
+Acceso a APIs específicas como SmsManager
+Relación con Mood Journey (futuro desarrollo)
+
+Aunque no forma parte del MVP, el SMS podría integrarse para:
+
+Recordatorios de registro emocional
+Motivación del usuario para mantener el hábito
+Seguimiento del uso de la app
+6. Análisis W-H (Quién, Qué, Cuándo, Dónde, Cómo y Por qué)
+Quién: desarrolladores y usuarios finales
+Qué: desarrollo, diseño, almacenamiento y comunicación potencial
+Cuándo: durante el desarrollo y evolución del MVP
+Dónde: Android Studio y dispositivos móviles
+Cómo: mediante programación, diseño UX y almacenamiento local
+Por qué: para construir una aplicación funcional, simple y escalable
+7. Conclusión
+
+El MVP de Mood Journey demuestra cómo conceptos fundamentales como desarrollo, diseño y base de datos se combinan para crear una aplicación funcional desde una versión inicial. Aunque el SMS no está implementado en esta etapa, su comprensión es clave para futuras mejoras del sistema, especialmente en la comunicación con el usuario.
+
+Referencias
+Android Developers. (s.f.). App architecture guide. https://developer.android.com/topic/architecture
+Android Developers. (s.f.). Data and storage overview. https://developer.android.com/training/data-storage
+Android Developers. (s.f.). SmsManager reference. https://developer.android.com/reference/android/telephony/SmsManager
