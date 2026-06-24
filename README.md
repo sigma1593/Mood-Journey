@@ -17,7 +17,6 @@ Desarrollar una aplicación Android que permita registrar emociones diarias, alm
 * Jetpack Compose
 * Room Database (planificada)
 
-
 ## Funcionalidades
 ## Autenticación
 * Inicio de sesión.
@@ -32,12 +31,6 @@ Desarrollar una aplicación Android que permita registrar emociones diarias, alm
 * Consulta de registros anteriores.
 * Visualización cronológica de emociones.
 
-### Estadísticas Básicas
-* Emoción más frecuente.
-* Cantidad total de registros.
-* Tendencias simples de estado de ánimo.
-
-
 ## Pantallas Principales
 * Login
 * Register
@@ -46,26 +39,44 @@ Desarrollar una aplicación Android que permita registrar emociones diarias, alm
 * Estadísticas
 
 
-## Estado Actual del Proyecto (Módulo 5)
+## Estado Actual del Proyecto (Módulo 8)
 ### Completado
-* Definición del problema.
-* Definición de objetivos.
-* Diseño conceptual de la aplicación.
-* Selección de tecnologías.
-* Diseño de wireframes.
-* Diseño de las pantallas principales.
-* Planificación de la navegación.
-* Planificación de la base de datos.
+* Diseño de la aplicación.
+* Login funcional.
+* Registro de usuarios.
+* Navegación entre pantallas.
+* Registro de estados de ánimo.
+* Registro de notas personales.
+* Historial de registros.
+* Gestión de estados con Compose.
+### No Implementado
+* Room Database.
+* Persistencia permanente de datos.
+* Estadísticas avanzadas.
+* Servicios de mensajería.
+* Funcionalidades de geolocalización.
+* Sincronización mediante red.
+  
+### Mejoras Futuras
 
-### En Desarrollo
-* Implementación de la pantalla principal de registro emocional.
-* Manejo de estados en Jetpack Compose.
+Basadas en los módulos posteriores del curso, se identifican las siguientes oportunidades de expansión:
+* Mensajería
+Recordatorios automáticos para registrar emociones.
+Notificaciones motivacionales.
+Mensajes personalizados al usuario.
 
-### Pendiente
-* Historial emocional funcional.
-* Integración de Room Database.
-* Estadísticas básicas.
-* Mejoras visuales.
+* Localización y Redes
+Sincronización con servicios en la nube.
+Respaldo de información.
+Estadísticas compartidas entre dispositivos.
+Registro contextual basado en ubicación.
+
+Otras Mejoras
+Base de datos Room.
+Gráficos emocionales.
+Reportes semanales.
+Exportación de historial.
+
 
 # Changelog
 
@@ -94,6 +105,16 @@ Desarrollar una aplicación Android que permita registrar emociones diarias, alm
 * Planificación de Room Database.
 * Elaboración del roadmap de desarrollo.
 
+## Módulo 6
+* Investigación de servicios de mensajería Android.
+* Evaluación de recordatorios y notificaciones como mejora futura.
 
+## Módulo 7
+*Investigación de servicios de localización y redes.
+* Evaluación de sincronización en línea como mejora futura.
+
+## Módulo 8
+Implementación funcional del PMV.
+Validación de navegación.
 
 
